@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkItDown Converter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .button-group {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+        }
+        a, button {
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 16px;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+        .btn-secondary {
+            background: #f0f1ff;
+            color: #667eea;
+        }
+        .btn-secondary:hover {
+            background: #e8eaff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📄 MarkItDown Converter UI</h1>
+        <p>Convert your documents to Markdown easily</p>
+        <p style="font-size: 14px; color: #999;">GitHub Pages is for documentation only. Use the links below to access the live app:</p>
+        
+        <div class="button-group">
+            <a href="https://markitdown-ui.vercel.app" class="btn-primary">🚀 Open Live App (Vercel)</a>
+            <a href="https://github.com/Asfand6417/markitdown-ui" class="btn-secondary">📖 View on GitHub</a>
+        </div>
+
+        <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; text-align: left;">
+            <h3 style="color: #333; margin-bottom: 10px;">Quick Start</h3>
+            <p style="color: #666; font-size: 14px;">
+                1. Upload a document (PDF, DOCX, PPTX, XLSX, HTML, Images, TXT)<br>
+                2. Click "Convert to Markdown"<br>
+                3. Download your .md file
+            </p>
+        </div>
+    </div>
+</body>
+</html>
